@@ -37,7 +37,7 @@ void loop() {
     Serial.println("FULLY CHARGED");
     batteryLevel = batteryCapacity; // to prevent integer from continuing to increase
     ticks = 0;
-    delay(20000);  // long pause
+    delay(20000)  // long pause
   }
   else {
     PrintBatteryPercentage();
